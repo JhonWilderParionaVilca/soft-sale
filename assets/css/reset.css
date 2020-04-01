@@ -1,0 +1,269 @@
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/**
+ * CONTENIDO...........Lo estás leyendo!!
+ * RESET...............Establece los valores iniciales
+ * CAMBIO RM...........Cambiar la base de calculo rm
+ */
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset para navegadores antiguos */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------------*\
+    $CAMBIO RM
+\*------------------------------------*/
+
+/**
+  * Cambiando el fontsize base a 10px para
+  * que sea más facil saber los valores rem en px
+  * fontsize * line-height = número en px este va a
+  * ser nuestro número mágico en este caso 24, los
+  * margin-bottoms y line-heights tiene que se un
+  * multiplo de ese número
+  *
+  * box-sizing para que no tome en cuenta el padding
+  * en el tamaño de la caja
+  */
+html {
+  font-size: 10px;
+  font-size: 62.5%; /*10px */
+  line-height: 2.4; /* 24px*/
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.71428571429; /* 24*/
+}
+/**
+  * Para que las imagenes sean responsivas
+  */
+img {
+  max-width: 100%;
+}
+/**
+  * margin botom para un estilo vertical acorde(multiplo de numero mágico)
+  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+p,
+table,
+pre,
+hr {
+  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
+}
+
+/**
+  * Para fuentes más grandes de lo habitual el
+  * line-heigth se halla ejm: para giga = 96/80
+  * la formula (font-size)px * line-height = (line-height)px
+  */
+.giga {
+  font-size: 80px;
+  font-size: 8rem; /* 80px */
+  line-height: 1.2; /* 96px */
+}
+.mega {
+  font-size: 64px;
+  font-size: 6.4rem; /* 64px */
+  line-height: 1.125; /* 72px */
+}
+
+.kilo {
+  font-size: 48px;
+  font-size: 4.8rem; /* 48px */
+  line-height: 1; /* 48px */
+}
+
+/**
+  * Define los valores de los headings y una clase
+  * asociada para que podamos usar esos tamaños en
+  * otra etiqueta
+  */
+h1,
+.alpha {
+  font-size: 32px;
+  font-size: 3.2rem; /* 32px */
+  line-height: 1.5; /* 48px */
+}
+h2,
+.beta {
+  font-size: 2.4rem; /* 24px */
+  line-height: 1; /* 24px */
+}
+h3,
+.gamma {
+  font-size: 20px;
+  font-size: 2rem; /* 20px */
+  line-height: 1.2; /* 24px */
+}
+h4,
+.delta {
+  font-size: 18px;
+  font-size: 1.8rem; /* 18px */
+  line-height: 1.333; /* 24px */
+}
+h5,
+.epsilon {
+  font-size: 16px;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5; /* 24px */
+}
+h6,
+.zeta {
+  font-size: 16px;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5; /* 24px */
+}
+
+/* Smaller-than-body-copy sizes here. */
+small,
+.milli {
+  font-size: 12px;
+  font-size: 1.2rem; /* 12px */
+  line-height: 2; /* 24px */
+}
+
+a,
+li,
+p {
+  font-size: 16px;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5; /* 24px */
+}
