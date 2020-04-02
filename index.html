@@ -24,7 +24,7 @@
 
     <header id="header" class="header">
       <!-- nav bar -->
-      <nav class="nav-bar">
+      <nav class="nav-bar js__nav-bar">
         <div class="nav-bar__wrapper container">
           <!-- logo -->
           <!-- <a class="nav-bar__link-image" href="./index.html"> -->
@@ -39,7 +39,8 @@
             <li><a class="nav-bar__link" href="./index.html">Inicio</a></li>
             <li><a class="nav-bar__link" href="#service">Servicios</a></li>
             <li><a class="nav-bar__link" href="#contact">Contacto</a></li>
-            <li><a class="nav-bar__link" href="#">Nosotros</a></li>
+            <li><a class="nav-bar__link" href="#clientes">Clientes</a></li>
+            <li><a class="nav-bar__link" href="#beneficios">Beneficios</a></li>
             <!-- <li><a class="nav-bar__link" href="#">Inicio</a></li> -->
           </ul>
           <!-- icono hamburguesa -->
@@ -74,7 +75,7 @@
       <h2 class="alpha">Ofrecemos las mejores soluciones tecnológicas</h2>
       <div class="service__wrapper">
         <!-- Aplicaciones Web -->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-window-maximize"></i>
 
           <h3 class="card__title">Aplicaciones Web</h3>
@@ -89,7 +90,7 @@
           >
         </article>
         <!-- Aplicaciones de escritorio -->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-tv"></i>
 
           <h3 class="card__title">Aplicaciones de Escritorio</h3>
@@ -104,7 +105,7 @@
           >
         </article>
         <!-- Aplicaciones movil-->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-mobile"></i>
 
           <h3 class="card__title">Aplicaciones Movil</h3>
@@ -119,7 +120,7 @@
           >
         </article>
         <!-- instalación de redes -->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-network-wired"></i>
 
           <h3 class="card__title">Redes</h3>
@@ -134,7 +135,7 @@
           >
         </article>
         <!-- base de datos/ -->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-database"></i>
 
           <h3 class="card__title">base de datos</h3>
@@ -149,7 +150,7 @@
           >
         </article>
         <!-- big data -->
-        <article class="card__service">
+        <article class="card__service" data-aos="fade-up-right">
           <i class="card__image fas fa-chart-bar"></i>
 
           <h3 class="card__title">Big Data</h3>
@@ -182,6 +183,7 @@
           <a class="hero__button" href="#">Contactanos</a>
         </section>
         <img
+          data-aos="fade-left"
           class="hero__image hero__image--contact"
           src="./assets/img/segundaIlustracion.svg"
           alt="imagen de señorita sentada con su laptop"
@@ -192,31 +194,34 @@
     <!-------------------
         $Results
     --------------------->
-    <section class="results">
+    <section id="clientes" class="results">
       <div class="container result__container">
         <div class="results__card">
-          <div class="result__item">
+          <div class="result__item" data-aos="flip-up">
             <h3 class="result__number alpha">+525</h3>
             <p class="result__paragrafh">
               Empresas que nos confian la administración de su infraestructura
               tecnológica
             </p>
           </div>
-          <div class="result__item">
+
+          <div class="result__item" data-aos="flip-up">
             <h3 class="result__number alpha">+325</h3>
             <p class="result__paragrafh">
               Asesorias a empresas privadas y públicas llevandolas de la mano
               desde el inicio hasta el fin.
             </p>
           </div>
-          <div class="result__item">
+
+          <div class="result__item" data-aos="flip-up">
             <h3 class="result__number alpha">+458</h3>
             <p class="result__paragrafh">
               Web Apss concluidas, puestas en marcha con actualizaciones
               continuas
             </p>
           </div>
-          <div class="result__item">
+
+          <div class="result__item" data-aos="flip-up">
             <h3 class="result__number alpha">+254</h3>
             <p class="result__paragrafh">
               Mobile Apps conluidos con éxito y satisfacción del cliente
@@ -242,40 +247,46 @@
         <h2 class="alpha">Beneficios</h2>
         <div class="benefit">
           <img
+            data-aos="fade-right"
             class="benefit__img"
             src="./assets/img/terceraIlustracion.svg"
             alt="imagen de señora pensando"
           />
           <div class="benefit__list">
-            <ul>
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i> Diseño a
                 medida
               </li>
             </ul>
-            <ul>
+
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i> Asesoria
                 personalizada
               </li>
             </ul>
-            <ul>
+
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i>
                 Infraestructuras
               </li>
             </ul>
-            <ul>
+
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i> Seguridad
               </li>
             </ul>
-            <ul>
+
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i> Instalaciones
               </li>
             </ul>
-            <ul>
+
+            <ul data-aos="fade-left">
               <li class="benefit__item beta">
                 <i class="benefit__icon far fa-check-circle"></i> Mantenimiento
               </li>
@@ -409,5 +420,11 @@
         >
       </p>
     </footer>
+
+    <!-------------------
+      $Scripts
+    --------------------->
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

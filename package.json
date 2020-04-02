@@ -1,0 +1,20 @@
+{
+  "name": "soft-sale",
+  "version": "1.0.0",
+  "description": "landing page of sibling software",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": "https://github.com/wilderPariona/soft-sale-landingpage",
+  "author": "wilderPariona <jhon.pariona.27@unsch.edu.pe>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
