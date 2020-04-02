@@ -85,7 +85,7 @@ h6 {
 }
 .nav-bar__image {
   height: 100%;
-  /* vertical-align: top; */
+  vertical-align: top;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -238,6 +238,9 @@ h6 {
 .char {
   font-size: 3.2rem;
 }
+/*------------------------------------*\
+    $Contact
+\*------------------------------------*/
 
 /* .hero__image--contact {
   width: 170rem;
@@ -249,8 +252,184 @@ h6 {
 
 .hero--contact {
   height: 80vh;
+  padding-bottom: 1rem;
 }
 
-.hero--contact {
-  padding-bottom: 1rem;
+/*------------------------------------*\
+    $Results
+\*------------------------------------*/
+
+.results {
+  background-color: #2570ff;
+  padding-top: 4rem;
+}
+
+.result__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem 0;
+}
+
+.results__card {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.result__item {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 4rem 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.result__number {
+  font-weight: 500;
+  color: #fff;
+}
+
+.result__paragrafh {
+  color: #fff;
+  font-weight: 300;
+}
+
+.result__text {
+  width: 37%;
+}
+
+.result__title {
+  color: #fff;
+}
+
+.result__link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.1rem solid #fff;
+  padding: 1rem 0;
+  width: 12rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+/*------------------------------------*\
+    $Beneficios
+\*------------------------------------*/
+
+#beneficios {
+  background-color: #fff;
+}
+
+.benefit__title {
+  padding-top: 6rem;
+}
+
+.benefit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit__img {
+  width: 55rem;
+}
+.benefit__list {
+  margin: 5rem 5rem 0 0;
+}
+
+.benefit__item {
+  background-color: #e0e0e057;
+  width: 35rem;
+  border-radius: 0.6rem;
+  padding: 1rem 0 1rem 1.5rem;
+  margin-bottom: 1rem;
+  color: #1d273b;
+  font-weight: 300;
+}
+
+.benefit__icon {
+  color: #d8644f;
+}
+
+/*------------------------------------*\
+    $Footer
+\*------------------------------------*/
+.footer {
+  padding-top: 6rem;
+  margin: auto;
+}
+
+.footer__autor {
+  background-color: #3f3d56;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  font-weight: 300;
+}
+.author__link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.author__link:hover {
+  color: #d8644f;
+}
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.footer--width {
+  width: 20%;
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: 500;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #5d6678;
+  font-weight: 300;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+  color: #e28041;
+  font-weight: 300;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social__icon {
+  text-decoration: none;
+  color: #5d6678;
+  font-weight: 300;
+  font-size: 2rem;
+  border: 0.1rem solid #5d6678;
+  border-radius: 50%;
+  width: 3.8rem;
+  height: 3.8rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  line-height: 3.6rem;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.social__icon:hover {
+  color: #fff;
+  border: 0.2rem solid #fff;
+  background-color: #d8644f;
 }
