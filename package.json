@@ -5,14 +5,16 @@
   "main": "main.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
   "repository": "https://github.com/wilderPariona/soft-sale-landingpage",
   "author": "wilderPariona <jhon.pariona.27@unsch.edu.pe>",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "gh-pages": "^2.2.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
