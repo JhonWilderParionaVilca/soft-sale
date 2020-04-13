@@ -2,4 +2,4 @@
 
 HTML, CSS, JavaScript :rocket: development company landingpage
 
-![softsale]("./assets/img/ss.gif")
+![softsale](https://raw.githubusercontent.com/wilderPariona/soft-sale/master/ss.gif)
