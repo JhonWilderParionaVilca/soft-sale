@@ -5,10 +5,11 @@
   "main": "main.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url /soft-sale/",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
-  "repository": "https://github.com/wilderPariona/soft-sale-landingpage",
+  "homepage": "https://github.com/wilderPariona/soft-sale",
+  "repository": "https://github.com/wilderPariona/soft-sale",
   "author": "wilderPariona <jhon.pariona.27@unsch.edu.pe>",
   "license": "MIT",
   "private": true,
