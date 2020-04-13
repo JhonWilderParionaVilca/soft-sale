@@ -6,4 +6,4 @@ var e;!function(t,o){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"FVPG":[function(require,module,exports) {
 "use strict";var e=s(require("aos"));function s(e){return e&&e.__esModule?e:{default:e}}require("aos/dist/aos.css"),e.default.init();var t=window.pageYOffset;window.addEventListener("scroll",function(){var e=window.pageYOffset;document.getElementsByClassName("js__nav-bar")[0].style.top=t>=e?"0px":"-100px",t=e});
 },{"aos":"wjjM","aos/dist/aos.css":"Jk0R"}]},{},["FVPG"], null)
-//# sourceMappingURL=https://github.com/wilderPariona/soft-sale/main.a923e3a2.js.map
+//# sourceMappingURL=/soft-sale/main.a923e3a2.js.map
