@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url /soft-sale/",
-    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "homepage": "https://github.com/wilderPariona/soft-sale",
   "repository": "https://github.com/wilderPariona/soft-sale",
@@ -15,9 +17,11 @@
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "snyk": "^1.335.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "snyk": true
 }
